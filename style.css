@@ -1,0 +1,100 @@
+body {
+    font-family: Times, Times, Times Times, Times, Times;
+    background-color: rgb(400, 400, 400);
+}
+
+#title {
+    color:aquamarine;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-header {
+    background-color: turquoise;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    color:white;
+    background-color: red;
+}
+
+.navbar-brand {
+    background-color: yellowgreen;
+    position: absolute;
+    left:85px;
+    font-size:60px;
+    
+}
+
+.container {
+    min-height: calc(100vh - 152px);
+    margin: 65px;
+    margin-top:20px;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.main-box {
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.supp-box {
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+
+}
+
+img.summary {
+    max-resolution: 50px;
+    max-width:65%;
+    height:auto;
+    float: left;
+  }
+
+.visual {
+    display: block;
+    max-width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chosen-item {
+    border-style: solid;
+    border-color: aquamarine;
+    background-color: aquamarine;
+}
+
+#question {
+    text-align:center;
+    font-size: 24px;
+}
+
+.grid-item {
+    max-width:100%;
+    height:auto;
+    padding:3px;
+}
+
+.chosen-item {
+    max-width:100%;
+    height:auto;
+    padding:2px;
+    background-color: yellowgreen;
+}
+
+.page-footer {
+    font-size:40px;
+    background-color: rgba(75, 75, 75);
+    color:white;
+    border-top-width: thick;
+    border-top-style: solid;
+    border-top-color: aquamarine;
+}
